@@ -29,6 +29,10 @@ public class Maximum <E extends Comparable<E>> {
         this.second = second;
         this.third = third;
     }
+
+    public void printMax(E max) {
+        System.out.println(" max = " + max);
+    }
 }
 
 
